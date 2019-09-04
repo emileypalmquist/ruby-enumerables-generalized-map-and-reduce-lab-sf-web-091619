@@ -15,7 +15,7 @@ end
 map([1, 2, 3]) {|n| n * -1}
 
 
-def reduce(s_array, s_p=0)
+def reduce(s_array, s_p=nil)
   i = 0 
   total = s_p
   
