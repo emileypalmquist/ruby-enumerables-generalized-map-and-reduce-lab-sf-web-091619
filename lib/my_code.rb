@@ -16,12 +16,12 @@ map([1, 2, 3]) {|n| n * -1}
 
 
 def reduce(s_array, s_p=nil)
-  i = 0
-  
   if s_p
     total = s_p
+    i = 0
   else 
     total = s_array[0]
+    i = 1
   end  
   
   while i < s_array.length do
