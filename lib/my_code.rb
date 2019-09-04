@@ -26,3 +26,5 @@ def reduce(s_array, s_p=0)
   
   total
 end  
+
+reduce([1,2,3]) {|
