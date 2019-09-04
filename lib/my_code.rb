@@ -20,7 +20,7 @@ def reduce(s_array, s_p=0)
   total = s_p
   
   while i < s_array.length do
-    total += s_array[i]
+    total = yield(total, s_array[i])
     i += 1
   end  
   
