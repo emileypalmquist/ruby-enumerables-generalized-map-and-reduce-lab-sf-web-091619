@@ -12,8 +12,6 @@ def map(s_array)
 end
 
 
-map([1, 2, 3]) {|n| n * -1}
-
 
 def reduce(s_array, s_p=nil)
   if s_p
