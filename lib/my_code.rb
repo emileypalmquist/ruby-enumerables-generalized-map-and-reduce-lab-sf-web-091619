@@ -15,11 +15,14 @@ end
 map([1, 2, 3]) {|n| n * -1}
 
 
-def reduce(s_array)
+def reduce(s_array, s_p=0)
   i = 0 
+  total = s_p
   
   while i < s_array.length do
+    total += s_array[i]
     i += 1
   end  
   
+  total
 end  
