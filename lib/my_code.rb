@@ -15,7 +15,7 @@ end
 
 def reduce(s_array, s_p=nil)
   if s_p
-    total = s_p
+    total = s_array[0]
     i = 0
   else 
     total = s_array[0]
