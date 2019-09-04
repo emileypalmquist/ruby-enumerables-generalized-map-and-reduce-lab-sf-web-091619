@@ -16,8 +16,12 @@ map([1, 2, 3]) {|n| n * -1}
 
 
 def reduce(s_array, s_p=0)
-  i = 0 
-  total = s_p
+  i = 0
+  if s_p
+    total = s_p
+  else 
+    
+  end  
   
   while i < s_array.length do
     total = yield(total, s_array[i])
