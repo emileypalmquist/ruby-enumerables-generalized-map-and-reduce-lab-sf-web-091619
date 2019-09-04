@@ -20,7 +20,7 @@ def reduce(s_array, s_p=0)
   if s_p
     total = s_p
   else 
-    
+    total = s_array[0]
   end  
   
   while i < s_array.length do
